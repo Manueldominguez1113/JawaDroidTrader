@@ -46,6 +46,7 @@
 
     <div class="row">
         <div id="card-id" class="card justify-content-center align-items-center">
+          <div id="card" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.4">  
             <div class="card-img-top">
                 <img src="../../asset/${pictures.findByAdId(selectedAd.id)}" alt="${pictures.findByAdId(selectedAd.id)}" data-tilt data-tilt-reverse="true" data-tilt-glare data-tilt-max-glare="0.4" class="rounded mx-auto d-block" width="75%" height="auto">
             </div>
